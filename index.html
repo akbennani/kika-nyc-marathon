@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loterij voor KiKa | Team NYC Marathon 2026</title>
+<meta name="description" content="Koop een lot en steun ons team tijdens de New York City Marathon. Opbrengst gaat naar KiKa, onderzoek naar en voor kinderen met kanker.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="brand">Team [NAAM] &rarr; NYC Marathon</div>
+  <div>
+    <a href="#loterij">Loterij</a>
+    <a href="#prijzen">Prijzen</a>
+    <a href="#loten">Loten kopen</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="badge">1 november 2026 &middot; New York City Marathon</div>
+  <h1>5 vrienden, 42,195 km, &eacute;&eacute;n doel: geld ophalen voor KiKa</h1>
+  <p>Wij rennen de New York City Marathon voor KiKa, dat onderzoek naar en voor kinderen met kanker mogelijk maakt.
+     Doe mee met onze loterij en maak kans op mooie prijzen &mdash; elk lot brengt ons dichter bij ons doel.</p>
+  <a href="#loten" class="btn">Bekijk de loten</a>
+</section>
+
+<section id="loterij">
+  <h2>Hoe werkt de loterij?</h2>
+  <p class="lead">Simpel: koop &eacute;&eacute;n of meerdere loten, iedereen dingt mee naar dezelfde prijzen.
+     Hoe meer loten je koopt, hoe groter je kans &eacute;n hoe meer je ons steunt.</p>
+  <div class="steps">
+    <div class="step">
+      <div class="num">1</div>
+      <h3>Kies een pakket</h3>
+      <p>Eén lot of een voordeelbundel &mdash; jij bepaalt hoeveel kans je wilt maken.</p>
+    </div>
+    <div class="step">
+      <div class="num">2</div>
+      <h3>Laat je gegevens achter</h3>
+      <p>Vul je naam en e-mailadres in, zodat we je kunnen bereiken bij winst.</p>
+    </div>
+    <div class="step">
+      <div class="num">3</div>
+      <h3>Rond je betaling af</h3>
+      <p>Je ontvangt direct instructies om je betaling af te ronden.</p>
+    </div>
+    <div class="step">
+      <div class="num">4</div>
+      <h3>Trekking</h3>
+      <p>Op <strong>[DATUM TREKKING]</strong> maken we de winnaars bekend via [KANAAL, bv. Instagram].</p>
+    </div>
+  </div>
+</section>
+
+<section id="prijzen" style="background:white;">
+  <h2>Waar maak je kans op?</h2>
+  <p class="lead placeholder-note">Placeholder &mdash; prijzen volgen nog.</p>
+  <div class="prizes">
+    <div class="prize-card">
+      <div class="rank">1e prijs</div>
+      <h3>[Hoofdprijs invullen]</h3>
+      <p>Korte omschrijving van de prijs.</p>
+    </div>
+    <div class="prize-card">
+      <div class="rank">2e prijs</div>
+      <h3>[Prijs invullen]</h3>
+      <p>Korte omschrijving van de prijs.</p>
+    </div>
+    <div class="prize-card">
+      <div class="rank">3e prijs</div>
+      <h3>[Prijs invullen]</h3>
+      <p>Korte omschrijving van de prijs.</p>
+    </div>
+  </div>
+</section>
+
+<section id="loten">
+  <h2>Kies je loten</h2>
+  <p class="lead">Alle pakketten dingen mee naar dezelfde prijzen &mdash; meer loten betekent meer kans &eacute;n meer steun voor KiKa.</p>
+  <div class="tickets">
+    <div class="ticket-card" data-pakket="1 lot" data-prijs="10">
+      <h3>Basis</h3>
+      <div class="price">&euro;10</div>
+      <div class="per-lot">1 lot</div>
+      <button class="btn secondary kies-btn">Kies dit pakket</button>
+    </div>
+    <div class="ticket-card highlight" data-pakket="3 loten" data-prijs="25">
+      <div class="tag">Meest gekozen</div>
+      <h3>Voordeel</h3>
+      <div class="price">&euro;25</div>
+      <div class="per-lot">3 loten &middot; bespaar &euro;5</div>
+      <button class="btn kies-btn">Kies dit pakket</button>
+    </div>
+    <div class="ticket-card" data-pakket="6 loten" data-prijs="45">
+      <h3>Mega</h3>
+      <div class="price">&euro;45</div>
+      <div class="per-lot">6 loten &middot; bespaar &euro;15</div>
+      <button class="btn secondary kies-btn">Kies dit pakket</button>
+    </div>
+  </div>
+</section>
+
+<section id="inschrijven">
+  <h2>Bijna klaar!</h2>
+  <p class="lead">Vul je gegevens in, dan sturen we je meteen de betaalinstructies.</p>
+  <div class="form-wrap">
+    <div class="selected-pakket" id="selectedPakket">Nog geen pakket gekozen &mdash; kies er hierboven &eacute;&eacute;n.</div>
+    <form id="inschrijfForm">
+      <label for="naam">Naam</label>
+      <input type="text" id="naam" required>
+
+      <label for="email">E-mailadres</label>
+      <input type="email" id="email" required>
+
+      <label for="telefoon">Telefoonnummer (optioneel)</label>
+      <input type="tel" id="telefoon">
+
+      <button type="submit" class="btn">Ga verder naar betaling</button>
+      <p class="hint">Je wordt doorgestuurd om je gegevens naar ons te versturen. Daarna ontvang je de betaalinstructies (Tikkie/bankoverschrijving).</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>Alle opbrengsten gaan naar <a href="https://www.kika.nl" target="_blank" rel="noopener">KiKa</a> &mdash; onderzoek naar en voor kinderen met kanker.</p>
+  <p>Vragen? Mail ons op <a href="mailto:[TEAM_EMAIL]">[TEAM_EMAIL]</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
